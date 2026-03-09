@@ -4,48 +4,73 @@
 ![Status](https://img.shields.io/badge/status-experimental-orange)
 ![AI](https://img.shields.io/badge/AI-monitoring-green)
 
-AI-powered Network Operations Center (NOC) monitoring dashboard.
+AI-powered infrastructure monitoring dashboard designed to help IT teams detect anomalies, analyze metrics, and respond to incidents faster.
 
 ## Overview
 
-AI NOC Monitor is an open-source project exploring how AI can assist IT infrastructure monitoring and operations.
+AI NOC Monitor is an experimental open-source project that explores how artificial intelligence can assist in infrastructure monitoring and IT operations.
 
-The dashboard helps visualize infrastructure health, alerts, and system topology in real time.
+The system collects monitoring metrics, visualizes them in a dashboard, and uses AI to:
+
+- Detect unusual system behavior
+- Summarize alerts and incidents
+- Assist operators in troubleshooting
+- Improve response time for infrastructure issues
 
 ## Features
 
-- Infrastructure health monitoring
-- Network topology visualization
-- Alert aggregation
 - Real-time monitoring dashboard
-- AI-assisted anomaly detection
+- Infrastructure metrics visualization
+- AI-powered anomaly detection
+- Automated alert summarization
+- Event analysis and operational insights
 
 ## Architecture
 
-The system is designed as a modular monitoring platform:
+The system architecture includes the following components:
 
-- Data collectors gather infrastructure metrics
-- Event processing pipeline normalizes monitoring data
-- WebSocket gateway provides real-time updates
-- Dashboard UI visualizes topology and system health
-- AI module analyzes anomalies and alerts
+Monitoring Sources
+        |
+        v
+Metrics Collector
+        |
+        v
+Monitoring API
+        |
+        v
+Dashboard Interface
+        |
+        v
+AI Analysis Engine
+
+AI models analyze incoming metrics and generate insights for operators.
 
 ## Use Cases
 
-- Enterprise NOC monitoring
-- Infrastructure observability
-- Incident awareness
-- Global operations dashboards
+- Network Operations Center (NOC)
+- DevOps monitoring
+- Infrastructure anomaly detection
+- Alert summarization
+- Operational intelligence
 
-## Roadmap
+## Technology Stack
 
-Planned improvements:
+- Backend: Python / Node.js
+- Frontend: Web Dashboard
+- AI Integration: OpenAI API
+- Data Sources: Monitoring metrics and system events
 
-- AI-based alert correlation
-- Predictive infrastructure failure detection
-- Integration with cloud monitoring APIs
-- Global infrastructure monitoring dashboard
+## Future Roadmap
+
+- AI incident investigation assistant
+- Predictive infrastructure alerts
+- Global monitoring event visualization
+- Intelligent alert filtering
+
+## Contributing
+
+Contributions are welcome. Feel free to submit pull requests or open issues.
 
 ## License
 
-MIT
+MIT License
