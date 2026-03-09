@@ -45,6 +45,7 @@ AI Analysis Engine
 
 AI models analyze incoming metrics and generate insights for operators.
 
+```markdown
 ## System Architecture
 
 ```mermaid
