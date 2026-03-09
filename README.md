@@ -45,6 +45,18 @@ AI Analysis Engine
 
 AI models analyze incoming metrics and generate insights for operators.
 
+## System Architecture
+
+```mermaid
+flowchart LR
+    A[Monitoring Sources] --> B[Metrics Collector]
+    B --> C[Monitoring API]
+    C --> D[Dashboard Interface]
+    C --> E[AI Analysis Engine]
+    E --> F[Alert Insights]
+    E --> G[Anomaly Detection]
+    E --> H[Incident Summary]
+
 ## Use Cases
 
 - Network Operations Center (NOC)
